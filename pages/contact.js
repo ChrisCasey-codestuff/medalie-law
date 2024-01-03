@@ -67,7 +67,7 @@ export default function Contact() {
         <p className="text-2xl">Contact Us</p>
       </div>
       <div className="flex flex-row w-full justify-center">
-        <div className="flex flex-col w-full items-center justify-start mt-36">
+        <div className="flex flex-col w-full items-center justify-start mt-20">
           <p className="m-2 mt-8">Phone:</p>
           <p className="m-2 mt-8">Email:</p>
           <p className="m-2 mt-8">Office Address:</p>
