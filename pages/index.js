@@ -45,7 +45,7 @@ export default function Home() {
             </a>
           </nav>
           <div className="h-full" data-aos="fade-left" data-aos-duration="1000">
-            <p className="text-sm whitespace-nowrap mr-2 font-baskerville text-blue-900">
+            <p className="text-md whitespace-nowrap mr-2 font-baskerville text-blue-900">
               Phone: 954-444-4444
             </p>
           </div>
