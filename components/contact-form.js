@@ -29,11 +29,14 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="rounded-lg p-6">
-      <div className="flex flex-col bg-yellow-200">
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      className="p-6 border-2 border-black bg-blue-900 text-black rounded-md "
+    >
+      <div className="flex flex-col">
         <div className="flex flex-row mb-6">
           <label className="m-2 flex-col justify-center w-1/2">
-            <p>Name:</p>
+            <p className="text-white">Name:</p>
             <input
               type="text"
               name="name"
@@ -43,7 +46,7 @@ const ContactForm = () => {
           </label>
 
           <label className="m-2 flex-col justify-center w-1/2">
-            <p>Email:</p>
+            <p className="text-white">Email:</p>
             <input
               type="email"
               name="email"
@@ -54,7 +57,7 @@ const ContactForm = () => {
         </div>
 
         <label className=" flex flex-col justify-center w-full h-full">
-          <p>Message:</p>
+          <p className="text-white">Message:</p>
           <textarea
             name="message"
             className="w-full h-36 rounded-lg"

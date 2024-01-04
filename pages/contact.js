@@ -2,7 +2,7 @@ import ContactForm from '../components/contact-form';
 
 export default function Contact() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full font-baskerville">
       <div className="flex flex-row border-b-2 border-blue-900 pb-2">
         <div className="flex flex-row mt-4 w-full h-full">
           <img
@@ -30,7 +30,7 @@ export default function Contact() {
               data-aos="fade-up"
               data-aos-duration="1400"
             >
-              Practice
+              Our Services
             </a>
             <a
               href="/ourTeam"
@@ -52,7 +52,7 @@ export default function Contact() {
           </nav>
           <div className="h-full" data-aos="fade-left" data-aos-duration="1000">
             <p className="text-md whitespace-nowrap mr-2 font-baskerville text-blue-900">
-              Phone: 954-444-4444
+              Phone: 954-522-5303
             </p>
           </div>
         </div>
@@ -67,10 +67,18 @@ export default function Contact() {
         <p className="text-2xl">Contact Us</p>
       </div>
       <div className="flex flex-row w-full justify-center">
-        <div className="flex flex-col w-full items-center justify-start mt-20">
-          <p className="m-2 mt-8">Phone:</p>
-          <p className="m-2 mt-8">Email:</p>
-          <p className="m-2 mt-8">Office Address:</p>
+        <div className="flex flex-col w-full items-start justify-start mt-16 ml-28 text-lg">
+          <div className="m-2 mt-8">
+            <p className="font-semibold">Phone:</p>
+            <p> 954-522-5305 </p>
+          </div>
+          <div className="m-2 mt-8">
+            <p className="font-semibold">Email Addresses: </p>
+          </div>
+          <div className="m-2 mt-8">
+            <p className="font-semibold">Office Address:</p>
+            <p>800 E. Broward Blvd., Ste. 301. Ft. Lauderdale, FL 33301-2024</p>
+          </div>
         </div>
         <div className="flex flex-row justify-center w-full h-full">
           <div className="h-full w-1/2">

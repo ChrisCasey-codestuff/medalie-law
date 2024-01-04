@@ -1,6 +1,6 @@
 export default function Practice() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full font-baskerville">
       <div className="flex flex-row border-b-2 border-blue-900 pb-2">
         <div className="flex flex-row mt-4 w-full h-full">
           <img
@@ -28,7 +28,7 @@ export default function Practice() {
               data-aos="fade-up"
               data-aos-duration="1400"
             >
-              Practice
+              Our Services
             </a>
             <a
               href="/ourTeam"
@@ -50,7 +50,7 @@ export default function Practice() {
           </nav>
           <div className="h-full" data-aos="fade-left" data-aos-duration="1000">
             <p className="text-md whitespace-nowrap mr-2 font-baskerville text-blue-900">
-              Phone: 954-444-4444
+              Phone: 954-522-5303
             </p>
           </div>
         </div>
@@ -73,10 +73,30 @@ export default function Practice() {
                     data-aos="fade-down"
                     data-aos-duration="1200"
                   >
-                    Areas of Practice
+                    Our Services
                   </p>
                 </div>
                 <div className="flex flex-col w-full mt-6">
+                  <div className="flex flex-row text-xl m-24">
+                    <img
+                      src="/estate-planning.jpeg"
+                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                    ></img>
+                    <div
+                      className="flex-row"
+                      data-aos="fade-left"
+                      data-aos-duration="1000"
+                    >
+                      <h2 className="text-2xl mt-2 mb-4">Estate Planning</h2>
+                      <p>
+                        We develop and implement plans for our clients’
+                        incapacity and death and facilitate the efficient
+                        transfer of wealth to their desired beneficiaries.
+                      </p>
+                    </div>
+                  </div>
                   <div className="flex flex-row text-xl m-24 mt-1 mb-10">
                     <img
                       src="/probate.jpeg"
@@ -89,13 +109,13 @@ export default function Practice() {
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Probate</h2>
+                      <h2 className="text-2xl mt-2 mb-4">Probate & Trust</h2>
                       <p>
-                        We work with personal represesntatives (executors) and
-                        trustees to identify and preserve decendents' assets,
-                        prepare and file probate pleadings, resolve creditors'
-                        claims, pay appropriate claims and taxes, and distribute
-                        assets according to decendents' wills and trusts.
+                        We work with personal representatives (executors) and
+                        trustees to identify and preserve decedents’ assets,
+                        manage the probate court process, pay estate
+                        obligations, and distribute assets according to
+                        decedents’ wills and trusts.
                       </p>
                     </div>
                   </div>
@@ -113,42 +133,16 @@ export default function Practice() {
                     >
                       <h2 className="text-2xl mt-2 mb-4">Contracts</h2>
                       <p>
-                        As counsel for a wide range of closely held businesses,
-                        we prepare and negotiate a wide range of documents and
-                        transactions including entity formation, agreements
-                        among owners, leases, finance, joint ventures, asset
-                        sales, entity sales, independent contrator
-                        relationships, and distribution and licensing
-                        agreements.
+                        We prepare and negotiate a wide range of business
+                        documents and transactions including: entity formation,
+                        operating agreements, leases, joint ventures,
+                        independent contractor relationships, distribution and
+                        licensing agreements, venders/suppliers, service
+                        providers, and other contractual arrangements.
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-row text-xl m-24">
-                    <img
-                      src="/estate-planning.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                    ></img>
-                    <div
-                      className="flex-row"
-                      data-aos="fade-left"
-                      data-aos-duration="1000"
-                    >
-                      <h2 className="text-2xl mt-2 mb-4">Estate Planning</h2>
-                      <p>
-                        We develop and implement plans for our clients'
-                        incapacity and death and facilitate the efficient
-                        transfer of wealth to their desired beneficiaries. We
-                        craete these plans in consideration of income and estate
-                        tax consequences. The plans are implemented through
-                        wills, trusts, health care surrogate designations,
-                        living wills, powers of attorney and beneficiary
-                        designations for life insurance and retirement plan
-                        distributions.
-                      </p>
-                    </div>
-                  </div>
+
                   <div className="flex flex-row text-xl m-24">
                     <img
                       src="/real-estate.webp"

@@ -1,6 +1,6 @@
 export default function OurTeam() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full font-baskerville">
       <div className="flex flex-row border-b-2 border-blue-900 pb-2">
         <div className="flex flex-row mt-4 w-full h-full">
           <img
@@ -50,7 +50,7 @@ export default function OurTeam() {
           </nav>
           <div className="h-full" data-aos="fade-left" data-aos-duration="1000">
             <p className="text-md whitespace-nowrap mr-2 font-baskerville text-blue-900">
-              Phone: 954-444-4444
+              Phone: 954-522-5303
             </p>
           </div>
         </div>
@@ -177,12 +177,12 @@ export default function OurTeam() {
                         Kori Carter, Legal Assistant
                       </h2>
                       <p>
-                        We represent clients in residential and commercial real
-                        property transactions including purchases, sales,
-                        mortgages, leases, title transfers for estate planning
-                        and asset protection; 1031 tax-deferred exchanges,
-                        property tax valuation challenges, homestead protection
-                        and exemption issues.
+                        Kori assists the attorneys by drafting documents,
+                        emailing and communicating with clients. She is
+                        passionate about helping clients through their journey.
+                        In her spare time, she loves attending baseball games,
+                        learning about sharks, and watching Disney movies. Kori
+                        is also a licensed notary public.
                       </p>
                     </div>
                   </div>
