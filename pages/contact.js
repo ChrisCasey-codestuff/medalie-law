@@ -66,7 +66,7 @@ export default function Contact() {
       <div className="flex flex-row w-full justify-center mt-5">
         <p className="text-2xl">Contact Us</p>
       </div>
-      <div className="flex flex-row w-full justify-center">
+      <div className="flex lg:flex-row sm:flex-col w-full justify-center">
         <div className="flex flex-col w-full items-start justify-start mt-16 ml-28 text-lg">
           <div className="m-2 mt-8">
             <p className="font-semibold">Phone:</p>
@@ -85,7 +85,7 @@ export default function Contact() {
             <div className="flex flex-row w-full justify-center">
               <div className="flex flex-col items-end justify-center ">
                 <div className="flex flex-row justify-center items-center mt-14"></div>
-                <div className="flex flex-row w-full h-full mr-20">
+                <div className="flex flex-row w-full h-full sm:items-center sm:justify-center mr-20">
                   <ContactForm />
                 </div>
               </div>
