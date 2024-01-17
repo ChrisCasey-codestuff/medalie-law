@@ -11,7 +11,7 @@ module.exports = {
         baskerville: ['Baskerville', 'sans-serif'],
       },
       screens: {
-        sm: '360px',
+        sm: '380px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',

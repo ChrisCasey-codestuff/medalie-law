@@ -169,7 +169,7 @@ export default function Practice() {
                         trustees to identify and preserve decedents’ assets,
                         manage the probate court process, pay estate
                         obligations, and distribute assets according to
-                        decedents’ wills and trusts.
+                        decendents’ wills and trusts.
                       </p>
                     </div>
                   </div>
