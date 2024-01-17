@@ -134,40 +134,42 @@ export default function Practice() {
                   </p>
                 </div>
                 <div className="flex flex-col w-full mt-6">
-                  <div className="flex lg:flex-row flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
                     <img
-                      src="/estate-planning.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      src="/probate.jpeg"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex-row"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
                       <h2 className="text-2xl mt-2 mb-4">Estate Planning</h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         We develop and implement plans for our clients’
                         incapacity and death and facilitate the efficient
                         transfer of wealth to their desired beneficiaries.
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
-                      src="/probate.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      src="/contract.jpeg"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Probate & Trust</h2>
-                      <p>
+                      <h2 className="text-2xl mt-2 mb-4 sm:text-center">
+                        Probate & Trust Administration
+                      </h2>
+                      <p className="sm:text-xl sm:text-center">
                         We work with personal representatives (executors) and
                         trustees to identify and preserve decedents’ assets,
                         manage the probate court process, pay estate
@@ -176,20 +178,22 @@ export default function Practice() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
-                      src="/contract.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      src="/estate-planning.jpeg"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex-col"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Contracts</h2>
-                      <p>
+                      <h2 className="text-2xl mt-2 mb-4 text-center">
+                        Contracts
+                      </h2>
+                      <p className="sm:text-xl sm:text-center">
                         We prepare and negotiate a wide range of business
                         documents and transactions including: entity formation,
                         operating agreements, leases, joint ventures,
@@ -199,23 +203,24 @@ export default function Practice() {
                       </p>
                     </div>
                   </div>
-
-                  <div className="flex lg:flex-row sm:flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/real-estate.webp"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
-                    <div data-aos="fade-left" data-aos-duration="1000">
+                    <div
+                      className="flex flex-col items-center"
+                      data-aos="fade-left"
+                      data-aos-duration="1000"
+                    >
                       <h2 className="text-2xl mt-2 mb-4">Real Estate</h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         We represent clients in residential and commercial real
-                        property transactions including purchases, sales,
-                        mortgages, leases, title transfers for estate planning
-                        and asset protection; 1031 tax-deferred exchanges,
-                        property tax valuation challenges, homestead protection
-                        and exemption issues.
+                        property transactions including: purchases, sales,
+                        mortgages, leases, title transfers for estate planning,
+                        asset protection, and homestead/exemption issues.
                       </p>
                     </div>
                   </div>

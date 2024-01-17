@@ -31,7 +31,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="p-6 border-2 border-black bg-blue-900 text-black rounded-md "
+      className="p-6 border-2 border-black bg-blue-900 text-black rounded-md"
     >
       <div className="flex flex-col">
         <div className="flex flex-row mb-6">

@@ -137,17 +137,17 @@ export default function OurTeam() {
                   <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
                     <img
                       src="/probate.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
                       <h2 className="text-2xl mt-2 mb-4">Greg Medalie, Esq.</h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         Greg chairs the Professional Advisory Committee of the
                         Community Foundation of Broward and serves on the
                         organization’s board of directors. He chaired the Wills,
@@ -163,22 +163,22 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/contract.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex-col"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">
+                      <h2 className="text-2xl mt-2 mb-4 sm:text-center">
                         Kathleen M. Molchan, Esq.
                       </h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         Kathleen grew up in Fort Lauderdale where her family and
                         the Medalie family have known each other for many years.
                         She has broad experience as a lawyer, including real
@@ -195,22 +195,22 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/estate-planning.jpeg"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex-row"
+                      className="flex flex-col items-center"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">
+                      <h2 className="text-2xl mt-2 mb-4 text-center">
                         Ellen Wolfson, Paralegal
                       </h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         Ellen has been in the legal field for over 10 years. She
                         uses her broad knowledge of court filings and legal
                         procedures to assit the attorneys and clients for each
@@ -222,18 +222,22 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl m-24">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/real-estate.webp"
-                      className="w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900"
+                      className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
                       data-aos="fade-right"
                       data-aos-duration="1000"
                     ></img>
-                    <div data-aos="fade-left" data-aos-duration="1000">
+                    <div
+                      data-aos="fade-left"
+                      data-aos-duration="1000"
+                      className="flex flex-col items-center"
+                    >
                       <h2 className="text-2xl mt-2 mb-4">
                         Kori Carter, Legal Assistant
                       </h2>
-                      <p>
+                      <p className="sm:text-xl sm:text-center">
                         Kori assists the attorneys by drafting documents,
                         emailing and communicating with clients. She is
                         passionate about helping clients through their journey.
