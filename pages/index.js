@@ -10,18 +10,18 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full font-baskerville">
       <div className="flex flex-row w-full border-b-2 border-blue-900 pb-2">
-        <div className="flex flex-row mt-4 w-full h-full">
+        <div className="flex flex-row mt-4 w-full h-full sm:justify-between">
           <img
             data-aos="fade-up"
             data-aos-duration="1000"
             src="/medalie-logo.png"
-            className="text-black mr-4 ml-16 w-22 h-28"
+            className="text-black mr-4 lg:ml-16 w-22 h-28 ml-10 sm:mb-4 sm:mt-4"
           />
           {/* Hamburger Icon for Small Screens */}
-          <div className="lg:hidden md:hidden">
+          <div className="lg:hidden md:hidden mr-10">
             <button
               onClick={toggleMenu}
-              className="text-blue-900 text-2xl p-2 focus:outline-none"
+              className="text-blue-900 text-4xl p-2 focus:outline-none"
             >
               &#9776;
             </button>
@@ -63,12 +63,6 @@ export default function Home() {
               Contact
             </a>
           </nav>
-          {/* Phone Number */}
-          <div className="h-full" data-aos="fade-left" data-aos-duration="1000">
-            <p className="text-md whitespace-nowrap mr-4 font-baskerville text-blue-900">
-              Phone: 954-522-5303
-            </p>
-          </div>
         </div>
       </div>
       {/* Full-Screen Navigation for Small Screens */}
