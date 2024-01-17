@@ -129,7 +129,7 @@ export default function OurTeam() {
                   </p>
                 </div>
                 <div className="flex flex-col w-full mt-6">
-                  <div className="flex lg:flex-row flex-col text-xl lg:m-24 mt-8 sm:m-12">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
                     <img
                       src="/probate.jpeg"
                       className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
@@ -158,7 +158,7 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl lg:m-24 mt-8 sm:m-12">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/contract.jpeg"
                       className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 sm:w-full"
@@ -190,7 +190,7 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl lg:m-24 mt-8 sm:m-12">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/estate-planning.jpeg"
                       className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
@@ -217,7 +217,7 @@ export default function OurTeam() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:flex-row flex-col text-xl lg:m-24 mt-8 sm:m-12">
+                  <div className="flex lg:flex-row flex-col text-xl m-24 mt-8">
                     <img
                       src="/real-estate.webp"
                       className="lg:w-1/4 rounded-sm mr-8 border-2 border-spacing-2 border-blue-900 w-full"
