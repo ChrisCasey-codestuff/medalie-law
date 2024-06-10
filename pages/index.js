@@ -15,8 +15,9 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1000"
             src="/medalie-logo.png"
-            className="text-black mr-4 lg:ml-16 w-22 h-28 ml-10 sm:mb-4 sm:mt-4"
+            className="text-black mr-4 lg:ml-16 w-22 h-full ml-10 sm:mb-4 sm:mt-4"
           />
+
           {/* Hamburger Icon for Small Screens */}
           <div className="lg:hidden md:hidden mr-10">
             <button
@@ -63,6 +64,13 @@ export default function Home() {
               Contact
             </a>
           </nav>
+          <div className="text-blue-900 font-baskerville">
+            <h2 className="justify-end text-2xl"> 954-522-5303 </h2>
+            <h2 className="justify-end text-2xl">
+              {' '}
+              Call us now for an initial consultation{' '}
+            </h2>
+          </div>
         </div>
       </div>
       {/* Full-Screen Navigation for Small Screens */}
@@ -106,49 +114,35 @@ export default function Home() {
           </a>
         </nav>
       </div>
-      <div>
-        <img
-          src="/palm-trees.jpg"
-          className="w-full border-b-2 border-blue-900 h-28"
-        ></img>
-      </div>
+
       <div className="flex flex-col font-baskerville">
-        <div className="flex flex-col lg:flex-row items-center">
-          <img src="/KMGM.jpg" className="w-1/2 rounded-md m-4 lg:w-1/4"></img>
-          <div className="flex flex-col items-center text-center">
-            <h2 className="text-2xl italic m-2">
+        <div className="flex flex-col items-center">
+          <img src="/KMGM.jpg" className="w-1/4 rounded-md m-4 h-1/4"></img>
+          <div className="flex flex-col items-center text-left">
+            <h2 className="lg:text-4xl sm:text-3xl italic m-2">
               A legacy of service and profesionalism
             </h2>
-            <p className="m-4 font-baskerville">
-              Medalie & Medalie, PA was founded in 1962 by Don Medalie, whose
-              son, Greg, joined the practice in 2006. Don officially retired in
-              July 2022; however, he remains a valuable consultant to the firm.
-              On Don’s retirement, Kathleen Molchan joined the Firm. She and
-              Greg work together to maintain the high quality of legal service
-              and professionalism that is Don’s legacy. The greatest testament
-              to the reputation of Medalie and Medalie is its representation of
-              the children and grandchildren of many of the firm’s early
-              clients! This “legacy” experience sets us apart from many firms by
-              allowing us to help our clients see the big picture when making
-              the important decisions that impact their life and legacy.
+            <p className="m-4 font-baskerville text-xl w-4/5">
+              <b>Medalie & Medalie, PA </b>was founded in 1962 by Don Medalie,
+              whose son, Greg, joined the practice in 2006. Don officially
+              retired in July 2022; however, he remains a valuable consultant to
+              the firm. On Don’s retirement, Kathleen Molchan joined the Firm.
+              She and Greg work together to maintain the high quality of legal
+              service and professionalism that is Don’s legacy. The greatest
+              testament to the reputation of Medalie and Medalie is its
+              representation of the children and grandchildren of many of the
+              firm’s early clients! This “legacy” experience sets us apart from
+              many firms by allowing us to help our clients see the big picture
+              when making the important decisions that impact their life and
+              legacy.
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center">
-          <p className="border-2 border-black rounded-full p-2 m-4 text-center w-auto text-md">
-            “I am grateful to have been referred to Greg Medalie… His knowledge,
-            ease of communication and efficient use of time are impressive...”
-            -Nancy W.
-          </p>
-          <p className="border-2 border-black rounded-full p-2 m-4 text-center w-auto text-md">
-            “..I would not hesitate to use all their services in the future.”
-            -Andrew A.
-          </p>
-          <p className="border-2 border-black rounded-full p-2 m-4 text-center w-auto text-md">
-            “I am grateful to have been referred to Greg Medalie… His knowledge,
-            ease of communication and efficient use of time are impressive...”
-            -Nancy W.
-          </p>
+        <div></div>
+      </div>
+      <div className="flex flex-col items-center mt-10 mb-10">
+        <div className="flex flex-row">
+          <h2 className="text-3xl">Awards and Memberships</h2>
         </div>
       </div>
     </div>

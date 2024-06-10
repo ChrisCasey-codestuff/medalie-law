@@ -63,6 +63,13 @@ export default function Practice() {
               Contact
             </a>
           </nav>
+          <div className="text-blue-900 font-baskerville">
+            <h2 className="justify-end text-2xl"> 954-522-5303 </h2>
+            <h2 className="justify-end text-2xl">
+              {' '}
+              Call us now for an initial consultation{' '}
+            </h2>
+          </div>
           {/* Phone Number */}
         </div>
       </div>
@@ -119,15 +126,6 @@ export default function Practice() {
             <div className="flex flex-row">
               <div className="flex flex-col items-center justify-center w-full">
                 <div className="flex flex-row justify-center items-center mt-14"></div>
-                <div className="flex flex-row justify-center">
-                  <p
-                    className="text-2xl text-black"
-                    data-aos="fade-down"
-                    data-aos-duration="1200"
-                  >
-                    Our Services
-                  </p>
-                </div>
                 <div className="flex flex-col w-full mt-6">
                   <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
                     <img
@@ -137,12 +135,12 @@ export default function Practice() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Estate Planning</h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <h2 className="text-2xl mt-2 mb-4">Estate Planning:</h2>
+                      <p className="sm:text-xl sm:text-left">
                         We develop and implement plans for our clients’
                         incapacity and death and facilitate the efficient
                         transfer of wealth to their desired beneficiaries.
@@ -157,14 +155,14 @@ export default function Practice() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4 sm:text-center">
-                        Probate & Trust Administration
+                      <h2 className="text-2xl mt-2 mb-4 sm:text-left">
+                        Probate & Trust Administration:
                       </h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <p className="sm:text-xl sm:text-left">
                         We work with personal representatives (executors) and
                         trustees to identify and preserve decedents’ assets,
                         manage the probate court process, pay estate
@@ -181,14 +179,14 @@ export default function Practice() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4 text-center">
-                        Contracts
+                      <h2 className="text-2xl mt-2 mb-4 text-left">
+                        Contracts:
                       </h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <p className="sm:text-xl sm:text-left">
                         We prepare and negotiate a wide range of business
                         documents and transactions including: entity formation,
                         operating agreements, leases, joint ventures,
@@ -206,12 +204,14 @@ export default function Practice() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Real Estate</h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <h2 className="text-2xl mt-2 mb-4 text-left">
+                        Real Estate:
+                      </h2>
+                      <p className="sm:text-xl sm:text-left">
                         We represent clients in residential and commercial real
                         property transactions including: purchases, sales,
                         mortgages, leases, title transfers for estate planning,

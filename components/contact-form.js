@@ -34,7 +34,7 @@ const ContactForm = () => {
       className="p-6 border-2 border-black bg-blue-900 text-black rounded-md"
     >
       <div className="flex flex-col">
-        <div className="flex flex-row mb-6">
+        <div className="flex flex-col mb-6">
           <label className="m-2 flex-col justify-center w-1/2">
             <p className="text-white">Name:</p>
             <input

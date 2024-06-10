@@ -63,6 +63,13 @@ export default function OurTeam() {
               Contact
             </a>
           </nav>
+          <div className="text-blue-900 font-baskerville">
+            <h2 className="justify-end text-2xl"> 954-522-5303 </h2>
+            <h2 className="justify-end text-2xl">
+              {' '}
+              Call us now for an initial consultation{' '}
+            </h2>
+          </div>
           {/* Phone Number */}
         </div>
       </div>
@@ -119,15 +126,6 @@ export default function OurTeam() {
             <div className="flex flex-row">
               <div className="flex flex-col items-center justify-center w-full">
                 <div className="flex flex-row justify-center items-center mt-14"></div>
-                <div className="flex flex-row justify-center">
-                  <p
-                    className="text-2xl text-black"
-                    data-aos="fade-down"
-                    data-aos-duration="1200"
-                  >
-                    Our Team
-                  </p>
-                </div>
                 <div className="flex flex-col w-full mt-6">
                   <div className="flex lg:flex-row flex-col text-xl m-24 mt-1 mb-10">
                     <img
@@ -137,12 +135,14 @@ export default function OurTeam() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4">Greg Medalie, Esq.</h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <h2 className="text-2xl mt-2 mb-4 text-left">
+                        Greg Medalie, Esq.
+                      </h2>
+                      <p className="sm:text-xl sm:text-left">
                         Greg chairs the Professional Advisory Committee of the
                         Community Foundation of Broward and serves on the
                         organization’s board of directors. He chaired the Wills,
@@ -166,14 +166,14 @@ export default function OurTeam() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4 sm:text-center">
+                      <h2 className="text-2xl mt-2 mb-4 sm:text-left">
                         Kathleen M. Molchan, Esq.
                       </h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <p className="sm:text-xl sm:text-left">
                         Kathleen grew up in Fort Lauderdale where her family and
                         the Medalie family have known each other for many years.
                         She has broad experience as a lawyer, including real
@@ -198,14 +198,14 @@ export default function OurTeam() {
                       data-aos-duration="1000"
                     ></img>
                     <div
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                       data-aos="fade-left"
                       data-aos-duration="1000"
                     >
-                      <h2 className="text-2xl mt-2 mb-4 text-center">
+                      <h2 className="text-2xl mt-2 mb-4 text-left">
                         Ellen Wolfson, Paralegal
                       </h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <p className="sm:text-xl sm:text-left">
                         Ellen has been in the legal field for over 10 years. She
                         uses her broad knowledge of court filings and legal
                         procedures to assit the attorneys and clients for each
@@ -227,12 +227,12 @@ export default function OurTeam() {
                     <div
                       data-aos="fade-left"
                       data-aos-duration="1000"
-                      className="flex flex-col items-center"
+                      className="flex flex-col items-left"
                     >
-                      <h2 className="text-2xl mt-2 mb-4 sm:text-center">
+                      <h2 className="text-2xl mt-2 mb-4 sm:text-left">
                         Kori Carter, Legal Assistant
                       </h2>
-                      <p className="sm:text-xl sm:text-center">
+                      <p className="sm:text-xl sm:text-left">
                         Kori assists the attorneys by drafting documents,
                         emailing and communicating with clients. She is
                         passionate about helping clients through their journey.
